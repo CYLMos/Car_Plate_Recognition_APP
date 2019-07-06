@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_setting"
+        android:title="設定"
+        app:showAsAction="never">
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/rb_tt"
+                    android:title="tess-two模式"
+                    android:checked="true">
+                </item>
+                <item
+                    android:id="@+id/rb_knn"
+                    android:title="knn模式">
+                </item>
+            </group>
+        </menu>
+
+    </item>
+</menu>
